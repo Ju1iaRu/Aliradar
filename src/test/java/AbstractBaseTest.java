@@ -8,7 +8,6 @@ public abstract class AbstractBaseTest {
 
     protected WebDriver driver;
 
-
     @BeforeClass
     public void setUp() {
         WebDriverManager.chromedriver().setup();
